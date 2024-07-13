@@ -56,8 +56,17 @@ body{
     padding: 20px 45px 20px 20px ;
 }
 
-.input-box input::placeholder{
-    color: white;
+.input-box label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.input-box input:focus + label{
+    font-size: .75em;
+    top: 0;
+    pointer-events: none;
 }
 
 .input-box i{
