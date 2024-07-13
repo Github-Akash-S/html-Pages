@@ -65,8 +65,9 @@ body{
     left: 20px;
 }
 
-.input-box input:focus + label{
-    font-size: .75em;
+.input-box input:focus + label,
+.input-box input:not(:focus):not(:placeholder-shown) + label {
+    font-size: 0.75em;
     top: 0;
     pointer-events: none;
 }
