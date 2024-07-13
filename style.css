@@ -71,6 +71,16 @@ body{
     pointer-events: none;
 }
 
+.input-box input::placeholder{
+    opacity: 0;
+    transition: all .3s;
+}
+
+.input-box input:focus::placeholder{
+    opacity: 1;
+    animation-delay: .2s;
+}
+
 .input-box i{
     position: absolute;
     right: 20px;
