@@ -1,2 +1,2 @@
 # Login page 
-## lang: HTML CSS
+> lang: HTML CSS `#0969DA`
